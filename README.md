@@ -28,7 +28,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine using GitHub Desktop or by running the following command in your terminal:
 
    ```bash
-   git clone https://github.com/your-username/mission-control-app.git
+   git clone https://github.com/theaarc/spatiales-mission-controller.git
    ```
 
 2. Navigate to the project directory:
