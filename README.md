@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/CamaireTech/ReactTS-Training
+   git clone https://github.com/theaarc/spatiales-mission-controller
    ```
 
 2. Change to the project directory:
@@ -98,4 +98,4 @@ Contributions are welcome! Feel free to open issues or pull requests for any imp
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-Make sure to replace placeholders like `https://github.com/CamaireTech/ReactTS-Training` with the actual URL of your repository and customize any other details to match your project's structure and requirements.
+Make sure to replace placeholders like `https://github.com/theaarc/spatiales-mission-controller` with the actual URL of your repository and customize any other details to match your project's structure and requirements.
