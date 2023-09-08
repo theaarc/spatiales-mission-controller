@@ -1,41 +1,22 @@
 import React from 'react';
-import HomePage from './components/HomePage'; // Import your MissionList component
-// import './App.css';
+import AddMissionForm from './Presentation/Screens/AddMissionForm';
+import MissionList from './Presentation/Screens/MissionList';
+import { MissionProvider } from './Core/Contexte/MissionContext';
 
 const App: React.FC = () => {
+
   return (
-    <div className="App">
-      <HomePage /> {/* Render your MissionList component */}
-    </div>
+    
+      <div className="App">
+          <main className="container mx-auto p-4">
+            <h2 className="text-2xl font-semibold mb-4">Liste des Missions Spatiales</h2>
+              <MissionProvider>
+                <AddMissionForm />
+                <MissionList />
+              </MissionProvider>
+          </main>
+      </div>
   );
 }
 
 export default App;
-
-
-// import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.tsx</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
